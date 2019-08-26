@@ -96,5 +96,8 @@
         "editor.fontSize": 12,
         "editor.lineHeight": 20,
         "editor.minimap.enabled": false,
+        "editor.fontFamily": "'DejaVu Sans Mono', Menlo, Monaco,'Courier New', monospace",
     },
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
 }
