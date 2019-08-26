@@ -1,0 +1,38 @@
+{
+	"Insert Image": {
+		"prefix": [
+			"includegraphics",
+			"image",
+			"bild"
+		],
+		"body": [
+			"\\begin{figure}[!hbt]",
+			"\t\\centering",
+			"\t\t\\includegraphics[width=1.0\\linewidth]{${1:ActualImageName}}",
+			"\t\t\\vspace{-3mm}",
+			"\t\t\\caption{${2:Caption}}",
+			"\t\\label{img:${3:Label}}",
+			"\\end{figure}"
+		]
+	},
+	"Input Listing": {
+		"prefix": [
+			"lstinputlisting",
+			"inputlisting",
+		],
+		"body": [
+			"\\lstinputlisting[language=scala, style=scala, caption={{${2:Caption}}}, escapechar=|, firstline=${4:0}, lastline=${5:10}, label=code:${3:Label}]{${1:Filename}}",
+		]
+	},
+	"Regular Listing": {
+		"prefix": [
+			"lstlisting",
+			"listing",
+		],
+		"body": [
+			"\\begin{lstlisting}[language=${3:scala}, style=scala, caption={{${1:Caption}}}, label=code:${2:Label}, escapechar=|]",
+			"${4:Insert code here}",
+			"\\end{lstlisting}"
+		]
+	}
+}

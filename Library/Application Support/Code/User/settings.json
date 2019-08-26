@@ -1,0 +1,100 @@
+{
+    "files.exclude": {
+        "**/*.js": {
+            "when": "$(basename).ts"
+        }
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "latex-workshop.view.pdf.viewer": "browser",
+    "workbench.colorTheme": "Egoist One",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "text.tex.latex",
+                "settings": {
+                    "foreground": "#ddd",
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.begin",
+                "settings": {
+                    "foreground": "#E6DB74"
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.end",
+                "settings": {
+                    "foreground": "#E6DB74"
+                }
+            },
+            {
+                "scope": "string.quoted",
+                "settings": {
+                    "foreground": "#E6DB74"
+                }
+            },
+            {
+                "scope": "support.function",
+                "settings": {
+                    "foreground": "#66CEB3"
+                }
+            }
+        ],
+        "comments": "#808080"
+    },
+    "workbench.colorCustomizations": {
+        "focusBorder": "#505050",
+        "activityBar.background": "#353535",
+        "activityBar.border": "#303030",
+        "editorGroupHeader.tabsBackground": "#3C3F41",
+        "editorGroupHeader.noTabsBackground": "#222b31",
+        "tab.unfocusedHoverBackground": "#54595A",
+        "tab.activeBackground": "#515658",
+        "tab.inactiveBackground": "#3C3F41",
+        "tab.border": "#303030",
+        "tab.activeBorderTop": "#0783a5",
+        "sideBar.background": "#3C3F41",
+        "sideBar.border": "#303030",
+        "sideBarTitle.foreground": "#ACACAC",
+        "sideBarSectionHeader.background": "#3C3F41",
+        "titleBar.activeForeground": "#737375",
+        "titleBar.activeBackground": "#2E2F31",
+        "titleBar.inactiveBackground": "#323232",
+        "titleBar.border": "#272729",
+        "editorCursor.foreground": "#ACACAC",
+        "input.background": "#3C3F41",
+        "list.hoverBackground": "#515658",
+        "list.activeSelectionBackground": "#515658",
+        "panel.background": "#3C3F41",
+        "panel.border": "#303030",
+        "terminal.background": "#0B2732",
+        "statusBar.background": "#353535",
+        "statusBarItem.hoverBackground": "#303030",
+        "statusBar.border": "#303030",
+        "statusBarItem.activeBackground": "#303030",
+        "editor.background": "#0B2732",
+        "badge.background": "#0783a5",
+        "editorGroup.border":"#323232",
+    },
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100,
+    "vim.disableExtension": false,
+    "explorer.sortOrder": "type",
+    "latex-workshop.message.update.show": false,
+    "sync.gist": "1af0220807bfd2d9c6f53512c85c04f0",
+    "latex-workshop.latex.autoBuild.run": "never",
+    "cSpell.userWords": [],
+    "C_Cpp.updateChannel": "Insiders",
+    "debug.allowBreakpointsEverywhere": true,
+    "zenMode.fullScreen": false,
+    "workbench.tips.enabled": false,
+    "editor.renderWhitespace": "all", 
+    "[latex]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 100,
+        "editor.lineNumbers": "off",
+        "editor.fontSize": 12,
+        "editor.lineHeight": 20,
+        "editor.minimap.enabled": false,
+    },
+}
