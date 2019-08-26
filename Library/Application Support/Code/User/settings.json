@@ -74,7 +74,7 @@
         "statusBarItem.activeBackground": "#303030",
         "editor.background": "#0B2732",
         "badge.background": "#0783a5",
-        "editorGroup.border":"#323232",
+        "editorGroup.border": "#323232",
     },
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 100,
@@ -88,7 +88,7 @@
     "debug.allowBreakpointsEverywhere": true,
     "zenMode.fullScreen": false,
     "workbench.tips.enabled": false,
-    "editor.renderWhitespace": "all", 
+    "editor.renderWhitespace": "all",
     "[latex]": {
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 100,
@@ -97,7 +97,10 @@
         "editor.lineHeight": 20,
         "editor.minimap.enabled": false,
         "editor.fontFamily": "'DejaVu Sans Mono', Menlo, Monaco,'Courier New', monospace",
+        "editor.tabSize": 2,
+        "editor.insertSpaces": false,
     },
     "editor.fontLigatures": true,
     "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.tabSize": 4,
 }
