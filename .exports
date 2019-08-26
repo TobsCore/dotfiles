@@ -1,0 +1,3 @@
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$HOME/.cargo/env:$PATH"
+export THESIS="$HOME/Documents/Studium/Master/Thesis"
