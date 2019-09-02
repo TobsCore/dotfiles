@@ -13,6 +13,7 @@ HIST_STAMPS="dd.mm.yyyy"
 
 plugins=(
     docker
+    zsh-z
     colored-man-pages
     zsh-autosuggestions
     zsh-syntax-highlighting
