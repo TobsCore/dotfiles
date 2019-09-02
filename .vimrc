@@ -40,12 +40,11 @@ set nobackup
 set nowb
 set noswapfile
 
+" Fixes backspace behavior
+set backspace=indent,eol,start
+
 " Be smart when using tabs ;)
 set smarttab
-
-" Linebreak on 500 characters
-set lbr
-set tw=500
 
 set ai "Auto indent
 set si "Smart indent
